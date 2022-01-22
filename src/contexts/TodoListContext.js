@@ -1,13 +1,14 @@
-import { createContext } from 'react';
+import { createContext, useState, useContext } from 'react';
+import moment from 'moment'
 
 //dummy data generator package:
-import casual from 'casual';
+import casual from 'casual-browserify';
 
 const TodosContext = createContext();
 export const useTodosContext = () => useContext(TodosContext);
 
 
-export default function TodoListContext({ children }) {
+export default function TodoListContextProvider({ children }) {
 
   //initital todos array (dummy data)
   const fakeTodos = () => {
@@ -15,7 +16,7 @@ export default function TodoListContext({ children }) {
     return [0, 1, 2, 3, 4, 5].map(() => {
       return {
         description: casual.sentence,
-        createdAt: casual.date(format = 'YYYY-MM-DD'),
+        createdAt: moment().format('hh:mm, DD/MM/YYYY'),
         todoColor: casual.rgb_hex
       }
     })

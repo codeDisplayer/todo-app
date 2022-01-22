@@ -6,14 +6,15 @@
 
 
 # TODO for next collaborators: 
-- Make components directory and create TodoItemComponent and use it in Homepage route inside the .todo-list-container.
+- Make components directory and create TodoItemComponent and use it in Homepage route inside the .todo-list-container div in the homepage.
 - style Homepage  
 
 # external packages used:
 ## production:
 - react-router-dom
+- moment (for dates and time).
 - no other package
 
 ## development:
-- casual (for generating dummy data). For more details: https://www.npmjs.com/package/casual#embedded-generators
+- casual-browserify (for generating dummy data). For more details: https://www.npmjs.com/package/casual-browserify.
 - no other package
