@@ -2,8 +2,7 @@
 - We can create a todo 
 - We can update a todo 
 - We can delete a todo
-
-## The created todo will have createdAt:date/time => this is to make a dashboard route (page) iside it, we will   create a chart that will illustrate the activity by the time it is created. Therefore we will need the createdAt.
+- The created todo object will have createdAt:date/time => this is to make a dashboard route (page) iside it, we will create a chart that will illustrate the activity by the time it is created. Therefore we will need the createdAt.
 
 
 # TODO for next collaborators: 
