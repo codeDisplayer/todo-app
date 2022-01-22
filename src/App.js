@@ -5,7 +5,7 @@ import Homepage from './routes/Homepage';
 import TodoListPage from './routes/TodoListPage.js';
 import CreateTodoPage from './routes/CreateTodoPage';
 import Dashboard from './routes/Dashboard';
-
+import Error404Page from 'routes/Error404Page';
 
 function App() {
   return (
@@ -15,6 +15,8 @@ function App() {
         <Route path='/todo-list' element={<TodoListPage />}/>
         <Route path='/create-todo' element={<CreateTodoPage />}/>
         <Route path='/dashboard' element={<Dashboard />}/>
+        
+        <Route path='*' element={<Error404Page />}/>
       </Routes>
     </Router>
   );
