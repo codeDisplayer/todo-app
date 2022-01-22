@@ -2677,10 +2677,10 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-casual@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/casual/-/casual-1.6.2.tgz#f56b87113ae99a6bba45e04bdfa068ca443f9e85"
-  integrity sha512-NQObL800rg32KZ9bBajHbyDjxLXxxuShChQg7A4tbSeG3n1t7VYGOSkzFSI9gkSgOHp+xilEJ7G0L5l6M30KYA==
+casual-browserify@^1.5.19-2:
+  version "1.5.19-2"
+  resolved "https://registry.yarnpkg.com/casual-browserify/-/casual-browserify-1.5.19-2.tgz#e4881deb8b9c85c17e6f51ba1ee59c0a30839f05"
+  integrity sha512-UnAmFQpyP4Wqv42qLKqRefAZIBPbR/mw5x2rKaYBSKn2yKRXbhaxn/9dLuUZ7PJ5cnaJ8YAZpFsRPNfXasVD2A==
   dependencies:
     mersenne-twister "^1.0.1"
     moment "^2.15.2"
@@ -5760,7 +5760,7 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-moment@^2.15.2:
+moment@^2.15.2, moment@^2.29.1:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
